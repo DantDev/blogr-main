@@ -395,13 +395,14 @@ a{
 }
 
 .content-1-title{
-  font-size: 3em;
+  font-size: 2.5em;
   margin-top: 150px;
   color: var(--clr-very-dark-blue);
 }
 
 .content-1-info{ 
-  padding: 100px;
+  padding-left: 100px;
+  padding-top: 80px;
 }
 
 .content-1-img-container{
@@ -422,7 +423,7 @@ a{
 
 .content-text{
   font-size: 1.1em;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 30px;
   color: var(--clr-very-dark-blue);
   margin-bottom: 80px;
