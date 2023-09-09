@@ -301,6 +301,10 @@ a{
   color: var(--clr-white);
 }
 
+.login-btn{
+  font-weight: var(--fw-medium);
+}
+
 .signup-btn{
   padding: 15px 40px;
   background: var(--clr-white);

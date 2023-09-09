@@ -107,7 +107,7 @@ function App() {
             </div>
             <div className="login-section">
               <li className="nav-login">
-                <p><a href="">Login</a></p>
+                <p className="login-btn"><a href="">Login</a></p>
               </li>
               <li>
                 <button className="signup-btn">Sign Up</button>
