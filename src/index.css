@@ -510,7 +510,7 @@ a{
 
 footer{
   background: var(--clr-very-dark-black-blue);
-  height: 450px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
