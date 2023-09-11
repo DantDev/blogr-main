@@ -176,8 +176,13 @@ a{
   text-decoration: underline;
 }
 
+.down-arrow{
+  margin-left: 10px;
+}
+
 .up-arrow{
   transform: rotate(180deg);
+  margin-left: 10px;
 }
 
 .nav-section{
