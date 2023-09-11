@@ -318,6 +318,7 @@ a{
 .signup-btn:hover{
   background: var(--clr-very-light-red);
   color: var(--clr-white);
+  cursor: pointer;
 }
 
 .header-content{
