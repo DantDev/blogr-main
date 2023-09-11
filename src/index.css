@@ -436,7 +436,7 @@ a{
 
 .content-2{
   background: var(--grd-dark-to-desat-blue);
-  height: 500px;
+  height: 400px;
   border-radius: 0 100px 0 100px;
   overflow: hidden;
 }
@@ -451,7 +451,7 @@ a{
 
 .phones-illustration{
   position: absolute;
-  width: 680px;
+  width: 550px;
   top: 1760px;
   margin-left: 100px;
 }
