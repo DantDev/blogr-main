@@ -44,7 +44,7 @@ function App() {
               <li>
                 <div className="dropdown">
                   <label onClick={dropProduct} className="nav-item">Product
-                    <img src={arrowLight} />
+                    <img className={openProduct ? "up-arrow" : "down-arrow"} src={arrowLight} />
                   </label>
                   <ul className={openProduct ? "dropdown-product-active" : "dropdown-product"}>
                     <li className="drop-item">
@@ -68,7 +68,7 @@ function App() {
               <li>
                 <div className="dropdown">
                   <label onClick={dropCompany} className="nav-item">Company
-                    <img src={arrowLight} />
+                    <img className={openCompany ? "up-arrow" : "down-arrow"} src={arrowLight} />
                   </label>
                   <ul className={openCompany ? "dropdown-company-active" : "dropdown-company"}>
                     <li className="drop-item">
@@ -89,7 +89,7 @@ function App() {
               <li>
                 <div className="dropdown">
                   <label className="nav-item" onClick={dropConnect}>Connect
-                    <img src={arrowLight} />
+                    <img className={openConnect ? "up-arrow" : "down-arrow"} src={arrowLight} />
                   </label>
                   <ul className={openConnect ? "dropdown-connect-active" : "dropdown-connect"}>
                     <li className="drop-item">

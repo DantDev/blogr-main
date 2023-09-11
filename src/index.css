@@ -169,10 +169,15 @@ a{
   color: var(--clr-white);
   cursor: pointer;
   margin-right: 40px;
+  white-space: nowrap;
 }
 
 .nav-item:hover{
   text-decoration: underline;
+}
+
+.up-arrow{
+  transform: rotate(180deg);
 }
 
 .nav-section{
@@ -313,6 +318,7 @@ a{
   color: var(--clr-light-red);
   font-size: 1em;
   font-weight: var(--fw-bold);
+  white-space: nowrap ;
 }
 
 .signup-btn:hover{
