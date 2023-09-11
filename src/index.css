@@ -453,7 +453,7 @@ a{
   position: absolute;
   width: 550px;
   top: 1760px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 .circle-illustration{
@@ -466,7 +466,8 @@ a{
 .content-2-info{
   position: absolute;
   margin-top: 100px;
-  left: 750px;
+  left: 630px;
+  max-width: 600px;
 }
 
 .content-2-title{
