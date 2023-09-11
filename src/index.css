@@ -349,10 +349,10 @@ a{
 
 .start-btn{
   font-family: var(--ff-ubuntu);
-  padding: 15px 25px;
+  padding: 15px 20px;
   background: var(--clr-white);
   color: var(--clr-light-red);
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: var(--fw-bold);
   border: none;
   border-radius: 40px;
@@ -366,10 +366,10 @@ a{
 
 .learn-btn{
   font-family: var(--ff-ubuntu);
-  padding: 15px 25px;
+  padding: 15px 20px;
   background: none;
   color: var(--clr-white);
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: var(--fw-bold);
   border: 1px solid var(--clr-white);
   border-radius: 40px;
