@@ -465,20 +465,19 @@ a{
 
 .content-2-info{
   position: absolute;
-  padding: 40px;
   margin-top: 100px;
   left: 750px;
 }
 
 .content-2-title{
-  font-size: 3em;
+  font-size: 2.5em;
   color: var(--clr-white);
   margin-bottom: 30px;
   font-weight: var(--fw-semi-bold);
 }
 
 .content-2-text{
-  font-size: 1.2em;
+  font-size: 1em;
   color: var(--clr-white);
   line-height: 30px;
   letter-spacing: 2px;
