@@ -162,6 +162,11 @@ a{
   width: 30px;
 }
 
+.navigation input:checked ~ .menu{
+  opacity: 1;
+  transition: ease-in-out opacity 250ms;
+}
+
 .nav-item{
   font-family: var(--ff-ubuntu);
   font-weight: var(--fw-medium);
@@ -553,4 +558,120 @@ footer{
 
 .footer-menu-item:hover{
   text-decoration: underline;
+}
+
+.navigation input:checked ~ .menu{
+  right: 0;
+}
+
+@media (max-width: 1100px){
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header{
+    width: 100%;
+  }
+
+  .nav{
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .logo-div{
+    padding: 0 20px;
+  }
+
+  .navigation{
+    width: auto;
+    padding: 30px 20px;
+  }
+
+  .hamburger,
+  .toggle-menu{
+    display: block;
+  }
+
+  .hamburger{
+    float: right;
+  }
+
+  .menu{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    background: var(--clr-white);
+    width: 300px;
+    min-height: 400px;
+    height: auto;
+    padding-right: 30px;
+    opacity: 0;
+    transition: ease-in-out opacity 250ms;
+  }
+
+  .nav-item{
+    color: var(--clr-very-dark-black-blue);
+  }
+
+  .nav-section{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .dropdown-product{
+    box-shadow: none;
+  }
+
+  .dropdown-product-active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    background: var(--clr-grayish-blue);
+    box-shadow: none;
+  }
+
+  .dropdown-company{
+    box-shadow: none;
+  }
+
+  .dropdown-company-active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    background: var(--clr-grayish-blue);
+    box-shadow: none;
+    padding: 20px 0;
+  }
+
+  .dropdown-connect{
+    box-shadow: none;
+  }
+
+  .dropdown-connect-active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    background: var(--clr-grayish-blue);
+    box-shadow: none;
+    padding: 20px 0;
+  }
+
+  .login-section{
+    flex-direction: column;
+  }
+
+  footer{
+    width: 100%;
+  }
 }
