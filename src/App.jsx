@@ -4,7 +4,9 @@ import bgIntroDesk from "./assets/images/bg-pattern-intro-desktop.svg"
 import arrowLight from "./assets/images/icon-arrow-light.svg"
 import bgCicles from "./assets/images/bg-pattern-circles.svg"
 import editorDesktop from "./assets/images/illustration-editor-desktop.svg"
+import editorMobile from "./assets/images/illustration-editor-mobile.svg"
 import laptopDesktop from "./assets/images/illustration-laptop-desktop.svg"
+import laptopMobile from "./assets/images/illustration-laptop-mobile.svg"
 import phonesIllustration from "./assets/images/illustration-phones.svg"
 
 function App() {
@@ -128,17 +130,18 @@ function App() {
     <main>
       <div className="content-1">
         <h2 className="content-1-title">Designed for the future</h2>
-        <div className="content-1-container">
-          <div className="content-1-info">
-            <h3 className="content-subtitle">Introducing an extensible editor</h3>
-            <p className="content-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
-            <h3 className="content-subtitle">Robust content management</h3>
-            <p className="content-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+          <div className="content-1-container">
+            <div className="content-1-info">
+              <h3 className="content-subtitle">Introducing an extensible editor</h3>
+              <p className="content-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+              <h3 className="content-subtitle">Robust content management</h3>
+              <p className="content-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+            </div>
+            <div className="content-1-img-container">
+              <img className="content-1-img-mobile" src={editorMobile}/>
+              <img className="content-1-img" src={editorDesktop}/>
+            </div>
           </div>
-          <div className="content-1-img-container">
-            <img className="content-1-img" src={editorDesktop}/>
-          </div>
-        </div>
       </div>
       <div className="content-2">
         <div className="content-2-illustrations">
@@ -154,7 +157,8 @@ function App() {
       </div>
       <div className="content-3">
         <div className="content-3-illustrations">
-          <img src={laptopDesktop}/>
+          <img className="laptop-img-desktop" src={laptopDesktop}/>
+          <img className="laptop-img-mobile" src={laptopMobile}/>
         </div>
         <div className="content-3-info">
           <h3 className="content-subtitle">Free, open, simple</h3>
