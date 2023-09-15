@@ -679,6 +679,17 @@ footer{
     flex-direction: column;
   }
 
+  .header-title{
+    font-size: 2em;
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .header-text{
+    text-align: center;
+    padding: 0 20px;
+  }
+
   .content-1-container{
     flex-direction: column-reverse;
     align-items: center;
@@ -690,6 +701,10 @@ footer{
     align-items: center;
     text-align: center;
     padding: 0;
+  }
+
+  .content-1-title{
+    font-size: 1.5em;
   }
 
   .content-1-img-container{
