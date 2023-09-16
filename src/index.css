@@ -703,6 +703,15 @@ footer{
     padding: 0;
   }
 
+  .content-subtitle{
+    font-size: 1.5em;
+  }
+
+  .content-text{
+    letter-spacing: normal;
+    padding: 0 10px;
+  }
+
   .content-1-title{
     font-size: 1.5em;
   }
@@ -719,6 +728,7 @@ footer{
 
   .content-1-img-mobile{
     display: block;
+    width: 90%;
   }
 
   .content-2{
@@ -729,19 +739,35 @@ footer{
     margin-top: 200px;
   }
 
+  .content-2-illustrations{
+    width: 100%;
+  }
+
   .circle-container{
     top: 150px;
   }
 
   .phones-illustration{
-    top: 1750px;
+    top: 1900px;
     margin-left: 0;
+    width: 100%;
   }
 
   .content-2-info{
     position: static;
     margin-top: 300px;
     z-index: 1;
+  }
+  
+  .content-2-title{
+    text-align: center;
+  }
+  
+  .content-2-text{
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: var(--fw-light);
+    padding: 0 20px;
   }
 
   .content-3{
@@ -758,6 +784,7 @@ footer{
 
   .laptop-img-mobile{
     display: block;
+    width: 100%;
   }
 
   .laptop-img-desktop{
