@@ -705,11 +705,13 @@ footer{
 
   .content-subtitle{
     font-size: 1.5em;
+    padding: 0 55px;
   }
 
   .content-text{
     letter-spacing: normal;
     padding: 0 10px;
+    text-align: center;
   }
 
   .content-1-title{
@@ -736,7 +738,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 300px;
   }
 
   .content-2-illustrations{
@@ -748,9 +750,9 @@ footer{
   }
 
   .phones-illustration{
-    top: 1900px;
-    margin-left: 0;
-    width: 100%;
+    top: 2100px;
+    margin-left: 15%;
+    width: 65%;
   }
 
   .content-2-info{
@@ -767,7 +769,7 @@ footer{
     letter-spacing: normal;
     text-align: center;
     font-weight: var(--fw-light);
-    padding: 0 20px;
+    padding: 0 40px;
   }
 
   .content-3{
@@ -801,6 +803,35 @@ footer{
   }
 
   footer{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer-logo{
+    align-items: center;
+  }
+
+  .footer-menu{
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 450px){
+  .content-2{
+    margin-top: 200px;
+  }
+
+  .content-2-info{
+    margin-top: 200px;
+  }
+
+  .phones-illustration{
+    top: 1900px;
+    margin-left: 0;
     width: 100%;
   }
 }
