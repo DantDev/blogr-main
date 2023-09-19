@@ -2,6 +2,7 @@ import React from "react"
 import logo from "./assets/images/logo.svg"
 import bgIntroDesk from "./assets/images/bg-pattern-intro-desktop.svg"
 import arrowLight from "./assets/images/icon-arrow-light.svg"
+import arrowDark from "./assets/images/icon-arrow-dark.svg"
 import bgCicles from "./assets/images/bg-pattern-circles.svg"
 import editorDesktop from "./assets/images/illustration-editor-desktop.svg"
 import editorMobile from "./assets/images/illustration-editor-mobile.svg"
@@ -47,6 +48,7 @@ function App() {
                 <div className="dropdown">
                   <label onClick={dropProduct} className="nav-item">Product
                     <img className={openProduct ? "up-arrow" : "down-arrow"} src={arrowLight} />
+                    <img className={openProduct ? "up-arrow-dark" : "down-arrow-dark"} src={arrowDark} />
                   </label>
                   <ul className={openProduct ? "dropdown-product-active" : "dropdown-product"}>
                     <li className="drop-item">
@@ -71,6 +73,7 @@ function App() {
                 <div className="dropdown">
                   <label onClick={dropCompany} className="nav-item">Company
                     <img className={openCompany ? "up-arrow" : "down-arrow"} src={arrowLight} />
+                    <img className={openCompany ? "up-arrow-dark" : "down-arrow-dark"} src={arrowDark} />
                   </label>
                   <ul className={openCompany ? "dropdown-company-active" : "dropdown-company"}>
                     <li className="drop-item">
@@ -92,6 +95,7 @@ function App() {
                 <div className="dropdown">
                   <label className="nav-item" onClick={dropConnect}>Connect
                     <img className={openConnect ? "up-arrow" : "down-arrow"} src={arrowLight} />
+                    <img className={openConnect ? "up-arrow-dark" : "down-arrow-dark"} src={arrowDark} />
                   </label>
                   <ul className={openConnect ? "dropdown-connect-active" : "dropdown-connect"}>
                     <li className="drop-item">

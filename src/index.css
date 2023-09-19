@@ -167,6 +167,10 @@ a{
   transition: ease-in-out opacity 250ms;
 }
 
+.navigation input:checked ~ .menu{
+  right: 0;
+}
+
 .nav-item{
   font-family: var(--ff-ubuntu);
   font-weight: var(--fw-medium);
@@ -188,6 +192,14 @@ a{
 .up-arrow{
   transform: rotate(180deg);
   margin-left: 10px;
+}
+
+.down-arrow-dark{
+  display: none;
+}
+
+.up-arrow-dark{
+  display: none;
 }
 
 .nav-section{
@@ -568,10 +580,6 @@ footer{
   text-decoration: underline;
 }
 
-.navigation input:checked ~ .menu{
-  right: 0;
-}
-
 @media (max-width: 1100px){
 
   .container{
@@ -613,19 +621,42 @@ footer{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 100px;
+    margin-right: 40px;
     background: var(--clr-white);
     width: 300px;
     min-height: 400px;
     height: auto;
-    padding-right: 30px;
     opacity: 0;
     transition: ease-in-out opacity 250ms;
   }
 
   .nav-item{
+    display: flex;
+    align-items: center;
     color: var(--clr-very-dark-black-blue);
+    margin: 0;
+    justify-content: center;
+  }
+
+  .down-arrow-dark{
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .up-arrow-dark{
+    display: block;
+    transform: rotate(180deg);
+    margin-left: 10px;
+  }
+
+  .down-arrow{
+    display: none;
+  }
+  
+  .up-arrow{
+    display: none;
   }
 
   .nav-section{
@@ -677,6 +708,18 @@ footer{
 
   .login-section{
     flex-direction: column;
+    margin: 0;
+    gap: 0;
+  }
+
+  .login-btn{
+    color: var(--clr-very-dark-black-blue);
+    font-weight: var(--fw-semi-bold);
+  }
+
+  .signup-btn{
+    color: var(--clr-white);
+    background: var(--grd-very-to-light-red);
   }
 
   .header-title{
