@@ -111,6 +111,7 @@ function App() {
                 </div>
               </li>
             </div>
+            <hr className="menu-line"/>
             <div className="login-section">
               <li className="nav-login">
                 <p className="login-btn"><a href="">Login</a></p>
