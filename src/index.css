@@ -16,6 +16,7 @@
   /*Neutral*/
   --clr-white: hsl(0, 0%, 100%);
   --clr-grayish-blue: hsl(240, 2%, 79%);
+  --clr-light-grayish-blue: hsl(240, 5%, 89%);
   --clr-very-dark-grayish-blue: hsl(207, 13%, 34%);
   --clr-very-dark-black-blue: hsl(240, 10%, 16%);
   
@@ -428,6 +429,7 @@ a{
 .content-1-title{
   font-size: 2.5em;
   margin-top: 150px;
+  margin-bottom: 25px;
   color: var(--clr-very-dark-blue);
 }
 
@@ -442,7 +444,7 @@ a{
 
 .content-1-img{
   position: relative;
-  right: -170px;
+  right: -20px;
   bottom: 150px;
 }
 
@@ -641,6 +643,7 @@ footer{
   }
 
   .nav-item{
+    font-size: 1.2em;
     display: flex;
     align-items: center;
     color: var(--clr-very-dark-black-blue);
@@ -689,8 +692,9 @@ footer{
     align-items: center;
     padding: 20px 0;
     position: static;
-    background: var(--clr-grayish-blue);
+    background: var(--clr-light-grayish-blue);
     box-shadow: none;
+    border-radius: 5px;
   }
 
   .dropdown-company{
@@ -702,8 +706,9 @@ footer{
     flex-direction: column;
     align-items: center;
     position: static;
-    background: var(--clr-grayish-blue);
+    background: var(--clr-light-grayish-blue);
     box-shadow: none;
+    border-radius: 5px;
     padding: 20px 0;
   }
 
@@ -717,12 +722,14 @@ footer{
     align-items: center;
     width: 100%;
     position: static;
-    background: var(--clr-grayish-blue);
+    background: var(--clr-light-grayish-blue);
     box-shadow: none;
+    border-radius: 5px;
     padding: 20px 0;
   }
 
   .drop-item{
+    font-size: 1.1em;
     font-weight: var(--fw-semi-bold);
     color: var(--clr-very-dark-grayish-blue);
   }
@@ -825,7 +832,8 @@ footer{
   }
 
   .circle-container{
-    top: 150px;
+    top: 310px;
+    right: -120px;
   }
 
   .phones-illustration{
@@ -909,7 +917,7 @@ footer{
   }
 
   .phones-illustration{
-    top: 1900px;
+    top: 1975px;
     margin-left: 0;
     width: 100%;
   }
