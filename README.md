@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/blogr-main-page-made-w-reactvite-responsive-css-variables-KbVBnIWmvO)
 - Live Site URL: [Live site URL](https://lambent-queijadas-fbcf9f.netlify.app/)
 - Repository: [Repository](https://github.com/DantDev/blogr-main)
 
